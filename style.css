@@ -1,0 +1,219 @@
+*{
+	padding:0;
+	margi:0;
+	box-sizing:border-box;
+}
+
+body
+{
+	font-familiy:verdana;
+}
+
+.statisticsText {
+    color: white;
+}
+ 
+.statisticsNumber {
+    font-weight: bold;
+}
+
+.banner-area
+{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(stronatloresize.png);
+	padding:0px;
+	width:100%;
+	height:98.3vh;
+	background-size:cover;
+}
+
+.banner-arearesize
+{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(stronatloresize.png);
+	padding:0px;
+	width:100%;
+	height:75vh;
+	background-size:cover;
+}
+
+.content-area{
+	height:100%;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.content{
+	text-align:center;
+	line-height:10px
+}
+
+.content h1
+{
+	font-size:60px;
+	color:white;
+}
+
+.content p
+{
+	font-size:30px;
+	color:white;
+}
+
+.selecttravel
+{
+	padding:30px 100px;
+	color:black;
+	background-color:white;
+		font-weight:1000;
+	cursor:pointer;
+	border-radius:50px;
+	appearance:none;
+	-webkit-apearance:none;
+	-moz-appearance:none;
+	background-image: url('samolot.png');
+	background-position:left 10px top 50%;
+	background-repeat:no-repeat;
+		border: 3px solid black;
+}
+
+.selectlocacion
+{
+	padding:30px 100px;
+	color:black;
+	background-color:white;
+		font-weight:1000;
+	cursor:pointer;
+	border-radius:50px;
+	appearance:none;
+	-webkit-apearance:none;
+	-moz-appearance:none;
+		background-image: url('location.png');
+	background-position:left 10px top 50%;
+	background-repeat:no-repeat;
+		border: 3px solid black;
+}
+
+.selectprice
+{
+	padding:30px 100px;
+	color:black;
+	background-color:white;
+		font-weight:1000;
+	cursor:pointer;
+	border-radius:50px;
+	appearance:none;
+	-webkit-apearance:none;
+	-moz-appearance:none;
+		background-image: url('money1.png');
+	background-position:left 10px top 50%;
+	background-repeat:no-repeat;
+		border: 3px solid black;
+}
+
+.selectcount
+{
+	padding:30px 100px;
+	color:black;
+	background-color:white;
+	font-weight:1000;
+	cursor:pointer;
+	border-radius:50px;
+	appearance:none;
+	-webkit-apearance:none;
+	-moz-appearance:none;
+	background-image: url('uczestnicy.jpg');
+	background-position:left 10px top 50%;
+	background-repeat:no-repeat;
+	border: 3px solid black;
+}
+
+
+.select:focus,
+.select:hover
+{
+	outline:none;
+	border: 5px solid red;
+}
+.selectcount option
+{
+	background-color:#FFFDD0;
+	text-color:red;
+}
+.selectdate option
+{
+	background-color:#FFFDD0;
+	text-color:red;
+}
+.selectlocacion option
+{
+	background-color:#FFFDD0;
+	text-color:red;
+}
+.selecttravel option
+{
+	background-color:#FFFDD0;
+	text-color:red;
+}
+.clicker
+{
+	padding:15px 40px;
+	color:black;
+	background-color:white;
+	font-weight:1000;
+	cursor:pointer;
+	border-radius:50px;
+	appearance:none;
+	border: 3px solid black;
+	background-image: url('strzalka.png');
+	background-position:right 10px top 50%;
+	background-repeat:no-repeat;
+}
+
+
+
+.przyklad{
+    overflow: hidden;
+    padding: 0; 
+    width: 400px;
+    height: 225px;
+border:0px solid #000;
+}
+.przyklad img {
+    transition-duration: 3s;
+	
+    margin: 0 auto;   
+	
+    display: block;
+}
+.przyklad img:hover {
+	filter: brightness(50%);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+.przyklad .text {
+      position: absolute;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      left: 0px;
+      bottom: 0px;
+      margin: 0px auto;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      font-family: Quicksand;
+      color: #fff;
+      width: 100%;
+    }
+	
+	th, td {
+  padding: 10px;
+}
+
+table {
+        border-collapse: separate;
+        border-radius: 15px;
+        border: 1px solid #C8D1DC;
+		line-height: 50px;
+      }
