@@ -3,25 +3,23 @@
 ![HolidayFinder Logo](./Logo.png)
 
 ## 🌐 **Overview**
-HolidayFinder to akademicki projekt stworzony w ramach naszego uniwersyteckiego kursu. Platforma pobiera oferty wakacyjne z różnych agencji podróży i wyszukiwarek wakacji, zapisując je w bazie danych. Użytkownicy mogą następnie filtrować i szukać swoich wymarzonych pakietów wakacyjnych na podstawie typu transportu, lokalizacji, zakresu cen i liczby podróżujących. Kliknięcie na zdjęcie oferty przekierowuje użytkownika do odpowiedniej strony, takiej jak "travelplanet", skąd oferta została pobrana.
+HolidayFinder is an academic project crafted as part of our university course. The platform pulls holiday deals from various travel agencies and vacation search engines, storing them in a database. Users can then filter and search for their dream holiday packages based on transport type, location, price range, and number of travelers. Clicking on an offer's image redirects the user to the respective site, such as "travelplanet", from where the offer was fetched.
 
 ## ✨ **Features**
-- 🔍 Pobiera oferty wakacyjne z różnych platform online.
-- 🎛 Dynamiczny system filtrowania pozwalający użytkownikom dostosować swoje wyszukiwanie.
-- 💲 Opcja sortowania ofert według ceny.
-- 🔗 Funkcjonalność przekierowywania do oryginalnej oferty wakacyjnej na zewnętrznej stronie.
+- 🔍 Fetches holiday deals from multiple online platforms.
+- 🎛 Dynamic filtering system allowing users to tailor their search.
+- 💲 Option to sort offers by price.
+- 🔗 Redirect functionality to the original holiday offer on the external website.
 
 ## ⚠️ **Known Issues**
-Platforma może napotkać problemy, gdy zewnętrzne strony (np. travelplanet) dokonują zmian w designie, powodując awarię naszego mechanizmu pobierania.
+The platform may encounter issues when external websites (e.g., travelplanet) make design changes, causing our fetching mechanism to malfunction.
 
 ## 🤝 **Contributing**
-Ten projekt obecnie nie jest utrzymywany. Jeśli jesteś zainteresowany poprawą kodu lub rozwiązaniem istniejących problemów, śmiało sklonuj repozytorium i stwórz pull request!
+This project is currently not maintained. If you're interested in improving the code or addressing existing issues, feel free to clone the repository and create a pull request!
 
 ## 📜 **License**
-Ten projekt jest licencjonowany na mocy licencji MIT. Szczegóły znajdziesz w pliku [LICENSE](LICENSE).
+This project is licensed under the MIT License. Details can be found in the [LICENSE](LICENSE) file.
 
 ## 🖋 **Authors**
 - **Michał Bugaj**
 - **Adrian Chojnacki**
-
-
